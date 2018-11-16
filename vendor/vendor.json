@@ -3,6 +3,42 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "dR0pVQ/Jm9qUwDcPdCz4kBYM8Gk=",
+			"path": "Course/blockchain",
+			"revision": "23a350466d9ead26cae58242d1dd71485899c067",
+			"revisionTime": "2018-10-28T14:55:56Z"
+		},
+		{
+			"checksumSHA1": "z/u9U4CApJcqE+EHQ4RVLlPzxqc=",
+			"path": "Course/cmd",
+			"revision": "23a350466d9ead26cae58242d1dd71485899c067",
+			"revisionTime": "2018-10-28T14:55:56Z"
+		},
+		{
+			"checksumSHA1": "dBRjlA0OjIx+g9HD6sj4I4qRhEE=",
+			"path": "Course/pos",
+			"revision": "23a350466d9ead26cae58242d1dd71485899c067",
+			"revisionTime": "2018-10-28T14:55:56Z"
+		},
+		{
+			"checksumSHA1": "NQxTcCsyeqK4bzEDCmZKDK3B4+Q=",
+			"path": "Course/pow",
+			"revision": "23a350466d9ead26cae58242d1dd71485899c067",
+			"revisionTime": "2018-10-28T14:55:56Z"
+		},
+		{
+			"checksumSHA1": "ySBLgefhMSfoFEJVee52OuRSly0=",
+			"path": "Course/rpc",
+			"revision": "23a350466d9ead26cae58242d1dd71485899c067",
+			"revisionTime": "2018-10-28T14:55:56Z"
+		},
+		{
+			"checksumSHA1": "Q/j2vhZA65HxGL9cXXKmv5O6Bjg=",
+			"path": "Course/wallet",
+			"revision": "23a350466d9ead26cae58242d1dd71485899c067",
+			"revisionTime": "2018-10-28T14:55:56Z"
+		},
+		{
 			"checksumSHA1": "8D60uhOvGzOxthqXG2H8CVm1O/4=",
 			"path": "github.com/btcsuite/btcd/btcec",
 			"revision": "cff30e1d23fc9e800b2b5b4b41ef1817dda07e9f",
