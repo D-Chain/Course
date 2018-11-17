@@ -8,7 +8,7 @@
 
 3.cd demo
 
-4.手动下载 git clone https://github.com/D-Chain/Course.git 到 $GOPATH/src/ 后
+4.手动下载 git clone https://github.com/D-Chain/Course.git 后
 
   cd Course,执行 "sudo docker build -t d-chain ." 
 
