@@ -122,14 +122,14 @@ func PutStateDB(address string) int {
 }
 
 func (t *Blockchain)AddTxPool(tx *Transaction) int {
-	//if ret := t.processTempTx(tx); ret == 0 {
-	//	//t.TxPool.AllTx = append(t.TxPool.AllTx, *tx)
-	//	if !t.TxPool.PengdingTx.Same(tx.ID) {
-	//		t.TxPool.PengdingTx.Push(tx)
-	//	}
-	//} else {
-	//	log.Println("invalid trx!")
-	//}
+	if ret := t.processTempTx(tx); ret == 0 {
+		//t.TxPool.AllTx = append(t.TxPool.AllTx, *tx)
+		if !t.TxPool.PengdingTx.Same(tx.ID) {
+			t.TxPool.PengdingTx.Push(tx)
+		}
+	} else {
+		log.Println("invalid trx!")
+	}
 
 	t.TxPool.PengdingTx.Push(tx)
 
