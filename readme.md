@@ -9,6 +9,7 @@
 4、创世区块指定两个账号的余额，一开始转账的时候必须用这两个账号(1KSKahQT9n69sgqn4aVmRUPpydf6AUeeZY, 1EFnWYm1suorEdt5XLEJ9UMTYQjGzqmiJq)
 
 ./cmd -c chain -s lzhx_ -l 8080 -a 1KSKahQT9n69sgqn4aVmRUPpydf6AUeeZY
+
 ./cmd -s lzhx_ -c chain -l 8082 -d /ip4/127.0.0.1/tcp/8080/ipfs/QmdhJPDZaLPCFjZMsuLfVtzZMNaZMPp6wT85gYdRnVcppj -a 
 
 1EFnWYm1suorEdt5XLEJ9UMTYQjGzqmiJq -s zhong_
