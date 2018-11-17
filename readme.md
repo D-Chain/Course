@@ -10,13 +10,13 @@
 
 ./cmd -c chain -s lzhx_ -l 8080 -a 1KSKahQT9n69sgqn4aVmRUPpydf6AUeeZY
 
-./cmd -s lzhx_ -c chain -l 8082 -d /ip4/127.0.0.1/tcp/8080/ipfs/QmdhJPDZaLPCFjZMsuLfVtzZMNaZMPp6wT85gYdRnVcppj -a 
+./cmd  -c chain -l 8082 -d /ip4/127.0.0.1/tcp/8080/ipfs/QmdhJPDZaLPCFjZMsuLfVtzZMNaZMPp6wT85gYdRnVcppj -a 
 
 1EFnWYm1suorEdt5XLEJ9UMTYQjGzqmiJq -s zhong_
 
 5、启动时需要制定账号，并且使用独立的钱包，因为需要钱包检查密钥
 
-6.支持dockfile,详细请见dock.md
+ 
 
 2018/10/28 log
 
