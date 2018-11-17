@@ -20,8 +20,6 @@ import (
 
 func main() {
 
- 
-
 	// Parse options from the command line
 	command  := flag.String("c", "", "mode[ \"chain\" or \"account\"]")
 	listenF := flag.Int("l", 0, "wait for incoming connections[chain mode param]")
