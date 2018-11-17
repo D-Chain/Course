@@ -50,6 +50,7 @@ func (ws *Wallets) GetAddresses() []string {
 
 // GetWallet returns a Wallet by its address
 func (ws Wallets) GetWallet(address string) Wallet {
+	 
 	return *ws.Wallets[address]
 }
 
@@ -57,6 +58,7 @@ func (ws Wallets) GetWallet(address string) Wallet {
 func (ws *Wallets) LoadFromFile(nodeID string) error {
 	walletFile := fmt.Sprintf(walletFile, nodeID)
 	if _, err := os.Stat(walletFile); os.IsNotExist(err) {
+		print("file is not exist")
 		return err
 	}
 
